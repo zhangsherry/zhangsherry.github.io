@@ -1920,3 +1920,10 @@ code::-webkit-scrollbar-thumb:hover {
           background-color: #f3f3f3!important;
         }
          
+      .gt-post-content p {
+    line-height: 1.725;
+    margin-bottom: 18px;
+    font-size: 18px;
+    letter-spacing: 1.0382px;
+}
+    

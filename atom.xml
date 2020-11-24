@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://zhangsherry.github.io</id>
+    <id>https://zhangsherry.gitee.io</id>
     <title>zhangsherry的小站</title>
-    <updated>2020-11-24T03:50:06.357Z</updated>
+    <updated>2020-11-24T12:43:18.501Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://zhangsherry.github.io"/>
-    <link rel="self" href="https://zhangsherry.github.io/atom.xml"/>
+    <link rel="alternate" href="https://zhangsherry.gitee.io"/>
+    <link rel="self" href="https://zhangsherry.gitee.io/atom.xml"/>
     <subtitle>zhangsherry写东西的地方。</subtitle>
-    <logo>https://zhangsherry.github.io/images/avatar.png</logo>
-    <icon>https://zhangsherry.github.io/favicon.ico</icon>
+    <logo>https://zhangsherry.gitee.io/images/avatar.png</logo>
+    <icon>https://zhangsherry.gitee.io/favicon.ico</icon>
     <rights>All rights reserved 2020, zhangsherry的小站</rights>
     <entry>
         <title type="html"><![CDATA[废文网投稿]]></title>
-        <id>https://zhangsherry.github.io/post/my-novel/</id>
-        <link href="https://zhangsherry.github.io/post/my-novel/">
+        <id>https://zhangsherry.gitee.io/post/my-novel/</id>
+        <link href="https://zhangsherry.gitee.io/post/my-novel/">
         </link>
         <updated>2020-11-22T15:06:29.000Z</updated>
         <content type="html"><![CDATA[<p>我不是喜欢被子，而是喜欢依存其上的我的体温。</p>

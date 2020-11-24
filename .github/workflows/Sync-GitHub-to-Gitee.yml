@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Mirror the Github repos to Gitee.
-      uses: Yikun/hub-mirror-action@master
+      uses: zhangsherry/zhangsherry.github.io@main
       with:
         src: github/zhangsherry
         dst: gitee/zhangsherry

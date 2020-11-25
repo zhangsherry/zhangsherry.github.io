@@ -529,7 +529,7 @@ code {
   float: right;
 }
 .md_block {
-  font-size: 1.05pc;
+  font-size: 1.125pc;
   word-wrap: break-word;
   flex-shrink: 0;
   width: 100%;

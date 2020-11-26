@@ -2,13 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhangsherry.github.io</id>
     <title>zhangsherry的小站</title>
-    <updated>2020-11-26T10:49:19.934Z</updated>
+    <updated>2020-11-26T12:07:27.468Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhangsherry.github.io"/>
     <link rel="self" href="https://zhangsherry.github.io/atom.xml"/>
     <logo>https://zhangsherry.github.io/images/avatar.png</logo>
     <icon>https://zhangsherry.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, zhangsherry的小站</rights>
+    <entry>
+        <title type="html"><![CDATA[博客背景]]></title>
+        <id>https://zhangsherry.github.io/post/bo-ke-bei-jing/</id>
+        <link href="https://zhangsherry.github.io/post/bo-ke-bei-jing/">
+        </link>
+        <updated>2020-11-26T12:00:06.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://i.loli.net/2020/11/26/TtaBgUSXMONwZfR.jpg" alt="博客背景 _1_.jpg" loading="lazy"><br>
+试一试图床以及图片显示测试。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[失眠者絮语]]></title>
         <id>https://zhangsherry.github.io/post/shimianzhe/</id>

@@ -2181,7 +2181,7 @@ p > code {
     }
     .mist .site-title i {
       background: #FFFFFFbf;
-    }.bg-img img {
+    }p{ text-indent:2em;} .bg-img img {
         filter: blur(5px)
       }.box-shadow-wrapper {
       box-shadow: none !important;

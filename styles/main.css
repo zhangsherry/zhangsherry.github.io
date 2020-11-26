@@ -2168,13 +2168,13 @@ p > code {
       background-color: #ffffffbf;
     }
     .site-meta {
-      background: #000 !important;
+      background: #212529 !important;
     }
     .head-top-line {
-      background: #000;
+      background: #212529;
     }
     .brand {
-      background: #637b5bbf;
+      background: #212529bf;
     }
     .main-title, .brand {
       color: #FFF !important;

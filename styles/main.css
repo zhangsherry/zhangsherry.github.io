@@ -533,6 +533,7 @@ code {
   word-wrap: break-word;
   flex-shrink: 0;
   width: 100%;
+  text-indent: 2em;
 }
 .katex {
   overflow-x: auto;

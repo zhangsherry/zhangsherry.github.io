@@ -2219,7 +2219,12 @@ blockquote:before {
   font-family: Arial, serif;
   line-height: 1em;
   font-weight: 700;
-}.box-shadow-wrapper {
+}
+.next-md-body h1 {
+    font-size: 1.25em;
+}
+.next-md-body h1, .next-md-body h2 {
+    border-bottom: none;.box-shadow-wrapper {
       box-shadow: none !important;
     }body {
       cursor: default;

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://zhangsherry.github.io</id>
     <title>zhangsherry的小站</title>
-    <updated>2020-11-26T12:43:05.801Z</updated>
+    <updated>2020-11-29T11:25:49.529Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://zhangsherry.github.io"/>
     <link rel="self" href="https://zhangsherry.github.io/atom.xml"/>
@@ -25,8 +25,14 @@
         <link href="https://zhangsherry.github.io/post/shimianzhe/">
         </link>
         <updated>2020-11-25T15:02:43.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="正文">正文</h1>
+        <summary type="html"><![CDATA[<p>“我不是喜欢被子，而是喜欢依存其上的我的体温”</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>“我不是喜欢被子，而是喜欢依存其上的我的体温”</p>
+<!-- more -->
+<h1 id="正文">正文</h1>
+<blockquote>
 <p>我不是喜欢被子，而是喜欢依存其上的我的体温。</p>
+</blockquote>
 <p>在这个失眠的深秋夜里，我裹着被子，胡思乱想，忽然就蹦出这么一句话。</p>
 <p>如果我早点明白自己是这么个人，是不是可以避免一场悲剧发生？</p>
 <p>即使窗户关的严严实实，还是能听见树叶在外面呜呜咽咽，几乎叫我疑心起来。可是我很清楚，窗户已经封死了，我亲自封的。还能听见风声，一定是窗户不够隔音的缘故，也可能因为我老是失眠神经衰弱到过于敏感了吧。</p>
@@ -68,8 +74,8 @@
 <p>但是那时我和她已经在一起了，没有公开罢了。我小声嘟囔，叫什么叫，这是我女朋友。不过我的声音和他人的叫喊声完全不一样，于是近处的同学还是听到了。我看见他们循着声音的方向看向我，其中有几个还是我的朋友。他们本来好像有些得了惊天消息的神情，一看到我，又纷纷露出了了然的笑意。那些脸上分明写着，我们都知道你是在开玩笑。我看见他们转过身去，继续叫着一些有的没的名字，可是我已经听不见任何声音了，只是觉得恍惚刚吞下一整块冰，从头到脚，由内而外的冷。</p>
 <p>这些我倒是记得清清楚楚，我的记忆力也只在这个方面好的超乎寻常。她不爱我的每一个论据我都记得清清楚楚。</p>
 <p>我想除了我以外，她的手机也记得清清楚楚。</p>
-<h1 id="一些多余的话">一些多余的话</h1>
-<p>预计在12月前写完，希望能做到：)</p>
+<h1 id="ps">ps</h1>
+<p>或许能在12月之前写完？</p>
 ]]></content>
     </entry>
 </feed>

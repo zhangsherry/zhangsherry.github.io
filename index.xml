@@ -1,24 +1,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zhang Sherry&#39;s BLOG</title>
-    <link>http://example.org/</link>
+    <link>https://zhangsherry.github.io/</link>
     <description>Recent content on Zhang Sherry&#39;s BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2021 Sherry Zhang, all rights reserved.</copyright>
     <lastBuildDate>Tue, 12 Jan 2021 22:21:09 +0800</lastBuildDate>
     
-        <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://zhangsherry.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     
         <item>
         <title>失眠者絮语</title>
-        <link>http://example.org/posts/shi-mian-zhe/</link>
+        <link>https://zhangsherry.github.io/posts/shi-mian-zhe/</link>
         <pubDate>Tue, 12 Jan 2021 22:21:09 +0800</pubDate>
         
-        <guid>http://example.org/posts/shi-mian-zhe/</guid>
-        <description>Zhang Sherry&#39;s BLOG http://example.org/posts/shi-mian-zhe/ -&lt;h1 id=&#34;正文&#34;&gt;正文&lt;/h1&gt;
+        <guid>https://zhangsherry.github.io/posts/shi-mian-zhe/</guid>
+        <description>Zhang Sherry&#39;s BLOG https://zhangsherry.github.io/posts/shi-mian-zhe/ -&lt;h1 id=&#34;正文&#34;&gt;正文&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;我不是喜欢被子，而是喜欢依存其上的我的体温。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -75,7 +75,7 @@
 &lt;p&gt;我想除了我以外，她的手机也记得清清楚楚。&lt;/p&gt;
 &lt;h1 id=&#34;一些多余的话&#34;&gt;一些多余的话&lt;/h1&gt;
 &lt;p&gt;将会因为新主题而进行修改。&lt;/p&gt;
-- http://example.org/posts/shi-mian-zhe/ - 2021 Sherry Zhang, all rights reserved.</description>
+- https://zhangsherry.github.io/posts/shi-mian-zhe/ - 2021 Sherry Zhang, all rights reserved.</description>
         </item>
     
     

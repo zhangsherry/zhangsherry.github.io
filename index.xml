@@ -6,7 +6,31 @@
         <description>Recent content on Zhang Sherry</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 09 Apr 2022 00:02:46 +0800</lastBuildDate><atom:link href="https://zhangsherry.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 18 Apr 2022 22:09:32 +0800</lastBuildDate><atom:link href="https://zhangsherry.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>代码小白的网站折腾笔记</title>
+        <link>https://zhangsherry.github.io/2022/%E4%BB%A3%E7%A0%81%E5%B0%8F%E7%99%BD%E7%9A%84%E7%BD%91%E7%AB%99%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/</link>
+        <pubDate>Mon, 18 Apr 2022 22:09:32 +0800</pubDate>
+        
+        <guid>https://zhangsherry.github.io/2022/%E4%BB%A3%E7%A0%81%E5%B0%8F%E7%99%BD%E7%9A%84%E7%BD%91%E7%AB%99%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0/</guid>
+        <description>&lt;h2 id=&#34;2022418&#34;&gt;2022.4.18&lt;/h2&gt;
+&lt;p&gt;起因是发现safari浏览器不能正常加载谷歌字体库，一篇文章打开字体不一致真的逼死强迫症。于是想要把网站用的谷歌字体库替换成国内的镜像源，翻了半天material for MKdocs的文档，无果，最后还是靠别人的博客&lt;a class=&#34;link&#34; href=&#34;http://zongming.net/read-1426/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Mkdocs 谷歌字体加载失败解决方法 - 运维笔记 (zongming.net)&lt;/a&gt;解决了问题。&lt;/p&gt;
+&lt;p&gt;修改了以下两个文件：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# mkdocs/themes/readthedocs/base.html 查找 
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700&amp;quot; /&amp;gt; 
+
+# 替换为    
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;https://fonts.geekzu.org/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700&amp;quot; /&amp;gt; 
+
+# material/base.html 查找 
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;https://fonts.googleapis.com/css?family={{ 
+
+# 替换为 
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;https://fonts.geekzu.org/css?family={{
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+        </item>
+        <item>
         <title>香草集</title>
         <link>https://zhangsherry.github.io/2022/%E9%A6%99%E8%8D%89%E9%9B%86/</link>
         <pubDate>Sat, 09 Apr 2022 00:02:46 +0800</pubDate>

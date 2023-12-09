@@ -60,3 +60,41 @@ p {
 ```
 
 非常感谢[AmazingRise](https://github.com/AmazingRise)提供的简约又美观的主题！要是我能多写几篇博文就好了！
+
+## 2023.12.9
+
+为了不再每次手动输入文章的修改时间，修改了`config.toml`文件：
+
+```
+# line 84
+[frontmatter]
+lastmod = ["lastmod" ,':fileModTime', ":git", "date"]
+```
+
+想要简化每次push到github仓库的步骤，于是将整个文件夹都push到仓库了，github pages部署方式改为github actions，结果部署完网站之后出现字体调整、正文缩进全部失效的问题，本地部署没问题。
+
+从github远程仓库拉取到本地，发现之前对`themes/diary/assets/scss/journal.scss`的修改全部消失了！猜测应该是主题作者使用了[.gitmodules](https://github.com/zhangsherry/hugo-theme-diary/blob/main/.gitmodules)子模块，所以我在本地的修改无效。按照ChatGPT的建议，fork了仓库并且修改：
+
+`assets/scss/journal.scss`文件中：
+
+```
+# line 9 调整等宽字体优先选择Consolas
+$mono-font-list: Consolas, "Fira Mono", "Cousine", Monaco, Menlo, "Source Code Pro", monospace;
+
+# line 12 调整字体为优先选择思源宋体、衬线字体、
+$sans-preferred-font-list: 'Noto Serif SC', serif, $default-font-list;
+
+# line 901 调整正文首行缩进2字符
+.post-body {
+          text-indent: 2em;
+        }
+```
+
+`layouts/partials/head.html`文件中：
+
+```
+#line 172
+<script>
+  loadCSS("https://fonts.googleapis.com/css?family=Consolas|Lora|Montserrat|Fira+Mono|Noto+Serif+SC|Material+Icons");
+</script>
+```

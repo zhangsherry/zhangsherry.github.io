@@ -81,5 +81,8 @@ url = "/index.xml"
 name = "RSS Feed"
 weight = 4
 
+enableGitInfo = true
+
 [frontmatter]
-lastmod = ["lastmod" ,':fileModTime', ":git", "date"]
+date = ["date", "publishDate", "lastmod"]
+lastmod = ["lastmod", ":git", "date", "publishDate"]

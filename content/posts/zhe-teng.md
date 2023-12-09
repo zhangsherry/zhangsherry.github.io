@@ -2,7 +2,7 @@
 title: "代码小白的网站折腾笔记"
 description: 本人建站血泪史
 date: 2022-04-18T22:09:32+08:00
-lastmod: 
+lastmod:
 tags: [CS]
 categories: 2022
 hidden: false
@@ -127,3 +127,7 @@ draft: false
 折腾了一晚上，终于调整好字体了！！！感谢ChatGPT，使我理解了.gitmodules，从现在开始养成fork的好习惯，本地改了一万年，push到远程仓库发现完全没变化！
 
 而且本来不至于折腾到今天的，使用命令`hugo server`之后本地看字体改过来了，过于欣喜，忘记publish还得使用命令`hugo`，push完发现字体又没变化，大崩溃！好在洗了个澡清醒多了。跌跌撞撞也在逐渐明白各种工具怎么用，很好！
+
+lastmod日期不管怎么修改都不正确……暂时放弃了。
+
+删掉了根目录仓库`layouts/partials/extended_head.html`文件的修改，每次都报错……

@@ -80,3 +80,6 @@ weight = 1
 url = "/index.xml"
 name = "RSS Feed"
 weight = 4
+
+[frontmatter]
+lastmod = ["lastmod" ,':fileModTime', ":git", "date"]

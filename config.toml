@@ -84,5 +84,4 @@ weight = 4
 enableGitInfo = true
 
 [frontmatter]
-date = ["date", "publishDate", "lastmod"]
-lastmod = ["lastmod", ":git", "date", "publishDate"]
+lastmod = ["lastmod" ,':fileModTime', ":git", "date"]

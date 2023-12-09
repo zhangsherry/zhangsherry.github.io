@@ -193,7 +193,7 @@ draft: false
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;20231210&#34;&gt;2023.12.10&lt;/h2&gt;
 &lt;p&gt;折腾了一晚上，终于调整好字体了！！！感谢ChatGPT，使我理解了.gitmodules，从现在开始养成fork的好习惯，本地改了一万年，push到远程仓库发现完全没变化！&lt;/p&gt;
 &lt;p&gt;而且本来不至于折腾到今天的，使用命令&lt;code&gt;hugo server&lt;/code&gt;之后本地看字体改过来了，过于欣喜，忘记publish还得使用命令&lt;code&gt;hugo&lt;/code&gt;，push完发现字体又没变化，大崩溃！好在洗了个澡清醒多了。跌跌撞撞也在逐渐明白各种工具怎么用，很好！&lt;/p&gt;
-&lt;p&gt;lastmod日期不管怎么修改都不正确……暂时放弃了。&lt;/p&gt;
+&lt;p&gt;lastmod日期不管怎么修改都不正确……暂时放弃了，实在不行就手动修改吧，一次失败的自动化尝试。&lt;/p&gt;
 &lt;p&gt;删掉了根目录仓库&lt;code&gt;layouts/partials/extended_head.html&lt;/code&gt;文件的修改，每次都报错……&lt;/p&gt;
 - https://zhangsherry.github.io/posts/zhe-teng/ - 2020 - 2023 Zhang Sherry, All rights reserved.</description>
         </item>

@@ -2,7 +2,7 @@
 title: "代码小白的网站折腾笔记"
 description: 本人建站血泪史
 date: 2022-04-18T22:09:32+08:00
-lastmod: 2023-06-13T22:01:51+08:00
+lastmod: 2023-06-14T00:18:51+08:00
 tags: [CS]
 categories: 2022
 hidden: false
@@ -46,6 +46,12 @@ $sans-preferred-font-list: 'Noto Serif SC', serif, $default-font-list;
 
 # line 26 调整正文字体大小为18px
 $post-body-size: 18px;
+
+# line 46 调整移动端字体大小
+$single-column-post-title-size: 26px;
+$single-column-post-summary-size: 16px;
+$single-column-post-body-size: 18px;
+$single-column-post-meta-size: 16px;
 
 # line 901 调整正文首行缩进2字符
 p {

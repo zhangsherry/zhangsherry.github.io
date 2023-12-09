@@ -21,7 +21,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://zhangsherry.github.io/posts/zhe-teng/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-04-18T22:09:32+08:00" />
-<meta property="article:modified_time" content="2023-06-14T00:18:51+08:00" /><meta property="og:site_name" content="Zhangsherry&#39;s Blog" />
+<meta property="article:modified_time" content="2023-12-09T22:57:35+08:00" /><meta property="og:site_name" content="Zhangsherry&#39;s Blog" />
 
 
 
@@ -60,7 +60,7 @@
     
     <link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
 
-<link rel="stylesheet" href="/scss/dark-mode.min.ead5cbf3e37100dfc95a41f1f3f9c30202afa8d357af711f05e04c0f80c1ba66.css" integrity="sha256-6tXL8&#43;NxAN/JWkHx8/nDAgKvqNNXr3EfBeBMD4DBumY=" media="screen">
+<link rel="stylesheet" href="/scss/dark-mode.min.449e212a6d488ae1603da4b215318ca5c918cecf434c01d9cf36d08d2407d79c.css" integrity="sha256-RJ4hKm1IiuFgPaSyFTGMpckYzs9DTAHZzzbQjSQH15w=" media="screen">
 
 
 <link rel="stylesheet"
@@ -84,9 +84,11 @@
 
 
 <script>console.log("Hello from 'layouts/partials/extended_head.html'")</script>
+<script>
+    loadCSS("https://fonts.googleapis.com/css?family=Consolas|Lora|Montserrat|Fira+Mono|Noto+Serif+SC|Material+Icons");
+  </script>
 
-</head>
-<body>
+</head><body>
     	<div id="app"><div class="single-column-drawer-container" id="drawer"
      v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
     <div class="drawer-content">
@@ -192,6 +194,24 @@
 					
 				
 			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#2023129" class="nav-2023129">
+									2023.12.9
+								</a>
+							</li>
+						
+						
+					
+				
+			
 		</ul>
 	</div>
 
@@ -281,9 +301,9 @@
                             
 
                             
-                            2 min
+                            5 min
                             
-                            42 s.
+                            12 s.
                         
                     </div>
                 </div>
@@ -331,10 +351,52 @@ p {
           text-indent: 2em;
         }
 </code></pre><p>非常感谢<a href="https://github.com/AmazingRise">AmazingRise</a>提供的简约又美观的主题！要是我能多写几篇博文就好了！</p>
+<h2 id="2023129">2023.12.9</h2>
+<p>为了不再每次手动输入文章的修改时间，修改了<code>config.toml</code>文件：</p>
+<pre tabindex="0"><code># line 84
+[frontmatter]
+lastmod = [&#34;lastmod&#34; ,&#39;:fileModTime&#39;, &#34;:git&#34;, &#34;date&#34;]
+</code></pre><p>想要简化每次push到github仓库的步骤，于是将整个文件夹都push到仓库了，github pages部署方式改为github actions，结果部署完网站之后出现字体调整、正文缩进全部失效的问题，本地部署没问题。</p>
+<p>从github远程仓库拉取到本地，发现之前对<code>themes/diary/assets/scss/journal.scss</code>的修改全部消失了！猜测应该是主题作者使用了<a href="https://github.com/zhangsherry/hugo-theme-diary/blob/main/.gitmodules">.gitmodules</a>子模块，所以我在本地的修改无效。按照ChatGPT的建议，fork了仓库并且修改：</p>
+<p>在主题文件仓库<code>assets/scss/journal.scss</code>文件中：</p>
+<pre tabindex="0"><code># line 6 调整字体为优先选择思源宋体、衬线字体
+$default-font-list: &#39;Noto Serif SC&#39;, serif, -apple-system, BlinkMacSystemFont, &#34;Segoe UI&#34;, Roboto,
 
+# line 9 调整等宽字体优先选择Consolas
+$mono-font-list: Consolas, &#34;Fira Mono&#34;, &#34;Cousine&#34;, Monaco, Menlo, &#34;Source Code Pro&#34;, monospace;
+
+# line 12 保持修改，虽然不知道为什么毫无作用
+$sans-preferred-font-list: &#39;Noto Serif SC&#39;, serif, $default-font-list;
+
+# line 26 正文字体大小为17
+$post-body-size: 17px;
+
+# line 49 移动端字体大小为17
+$single-column-post-body-size: 17px;
+
+# line 901 调整正文首行缩进2字符
+p {
+          text-indent: 2em;
+        }
+</code></pre><p><code>archetypes/default.md</code>文件调整为：</p>
+<pre tabindex="0"><code>title: &#34;&#34;
+date:
+lastmod:
+description: &#34;&#34;
+tags: []
+categories:
+hidden: false
+comments: false
+draft: false
+</code></pre><p>在根目录仓库<code>layouts/partials/extended_head.html</code>文件中：</p>
+<pre tabindex="0"><code># line 3
+&lt;script&gt;
+  loadCSS(&#34;https://fonts.googleapis.com/css?family=Consolas|Lora|Montserrat|Fira+Mono|Noto+Serif+SC|Material+Icons&#34;);
+&lt;/script&gt;
+</code></pre>
                     
                     <HR width="100%" id="EOF">
-		    <p style="color:#777;">最后修改于 2023-06-14</p>
+		    <p style="color:#777;">最后修改于 2023-12-09</p>
                     
                 </div>
             </div>
@@ -504,6 +566,24 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
 							<li>
 								<a href="#2023613" class="nav-2023613">
 									2023.6.13
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#2023129" class="nav-2023129">
+									2023.12.9
 								</a>
 							</li>
 						

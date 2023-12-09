@@ -148,7 +148,49 @@ p {
           text-indent: 2em;
         }
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;非常感谢&lt;a href=&#34;https://github.com/AmazingRise&#34;&gt;AmazingRise&lt;/a&gt;提供的简约又美观的主题！要是我能多写几篇博文就好了！&lt;/p&gt;
-- https://zhangsherry.github.io/posts/zhe-teng/ - 2020 - 2023 Zhang Sherry, All rights reserved.</description>
+&lt;h2 id=&#34;2023129&#34;&gt;2023.12.9&lt;/h2&gt;
+&lt;p&gt;为了不再每次手动输入文章的修改时间，修改了&lt;code&gt;config.toml&lt;/code&gt;文件：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# line 84
+[frontmatter]
+lastmod = [&amp;#34;lastmod&amp;#34; ,&amp;#39;:fileModTime&amp;#39;, &amp;#34;:git&amp;#34;, &amp;#34;date&amp;#34;]
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;想要简化每次push到github仓库的步骤，于是将整个文件夹都push到仓库了，github pages部署方式改为github actions，结果部署完网站之后出现字体调整、正文缩进全部失效的问题，本地部署没问题。&lt;/p&gt;
+&lt;p&gt;从github远程仓库拉取到本地，发现之前对&lt;code&gt;themes/diary/assets/scss/journal.scss&lt;/code&gt;的修改全部消失了！猜测应该是主题作者使用了&lt;a href=&#34;https://github.com/zhangsherry/hugo-theme-diary/blob/main/.gitmodules&#34;&gt;.gitmodules&lt;/a&gt;子模块，所以我在本地的修改无效。按照ChatGPT的建议，fork了仓库并且修改：&lt;/p&gt;
+&lt;p&gt;在主题文件仓库&lt;code&gt;assets/scss/journal.scss&lt;/code&gt;文件中：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# line 6 调整字体为优先选择思源宋体、衬线字体
+$default-font-list: &amp;#39;Noto Serif SC&amp;#39;, serif, -apple-system, BlinkMacSystemFont, &amp;#34;Segoe UI&amp;#34;, Roboto,
+
+# line 9 调整等宽字体优先选择Consolas
+$mono-font-list: Consolas, &amp;#34;Fira Mono&amp;#34;, &amp;#34;Cousine&amp;#34;, Monaco, Menlo, &amp;#34;Source Code Pro&amp;#34;, monospace;
+
+# line 12 保持修改，虽然不知道为什么毫无作用
+$sans-preferred-font-list: &amp;#39;Noto Serif SC&amp;#39;, serif, $default-font-list;
+
+# line 26 正文字体大小为17
+$post-body-size: 17px;
+
+# line 49 移动端字体大小为17
+$single-column-post-body-size: 17px;
+
+# line 901 调整正文首行缩进2字符
+p {
+          text-indent: 2em;
+        }
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;code&gt;archetypes/default.md&lt;/code&gt;文件调整为：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;title: &amp;#34;&amp;#34;
+date:
+lastmod:
+description: &amp;#34;&amp;#34;
+tags: []
+categories:
+hidden: false
+comments: false
+draft: false
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;在根目录仓库&lt;code&gt;layouts/partials/extended_head.html&lt;/code&gt;文件中：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# line 3
+&amp;lt;script&amp;gt;
+  loadCSS(&amp;#34;https://fonts.googleapis.com/css?family=Consolas|Lora|Montserrat|Fira+Mono|Noto+Serif+SC|Material+Icons&amp;#34;);
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;- https://zhangsherry.github.io/posts/zhe-teng/ - 2020 - 2023 Zhang Sherry, All rights reserved.</description>
         </item>
     
     

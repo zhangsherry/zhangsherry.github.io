@@ -2,7 +2,7 @@
 title: "代码小白的网站折腾笔记"
 description: 本人建站血泪史
 date: 2022-04-18T22:09:32+08:00
-lastmod: 2023-06-14T00:18:51+08:00
+lastmod: 
 tags: [CS]
 categories: 2022
 hidden: false
@@ -75,26 +75,50 @@ lastmod = ["lastmod" ,':fileModTime', ":git", "date"]
 
 从github远程仓库拉取到本地，发现之前对`themes/diary/assets/scss/journal.scss`的修改全部消失了！猜测应该是主题作者使用了[.gitmodules](https://github.com/zhangsherry/hugo-theme-diary/blob/main/.gitmodules)子模块，所以我在本地的修改无效。按照ChatGPT的建议，fork了仓库并且修改：
 
-`assets/scss/journal.scss`文件中：
+在主题文件仓库`assets/scss/journal.scss`文件中：
 
 ```
+# line 6 调整字体为优先选择思源宋体、衬线字体
+$default-font-list: 'Noto Serif SC', serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+
 # line 9 调整等宽字体优先选择Consolas
 $mono-font-list: Consolas, "Fira Mono", "Cousine", Monaco, Menlo, "Source Code Pro", monospace;
 
-# line 12 调整字体为优先选择思源宋体、衬线字体、
+# line 12 保持修改，虽然不知道为什么毫无作用
 $sans-preferred-font-list: 'Noto Serif SC', serif, $default-font-list;
 
+# line 26 正文字体大小为17
+$post-body-size: 17px;
+
+# line 49 移动端字体大小为17
+$single-column-post-body-size: 17px;
+
 # line 901 调整正文首行缩进2字符
-.post-body {
+p {
           text-indent: 2em;
         }
 ```
 
-`layouts/partials/head.html`文件中：
+`archetypes/default.md`文件调整为：
 
 ```
-#line 172
+title: ""
+date:
+lastmod:
+description: ""
+tags: []
+categories:
+hidden: false
+comments: false
+draft: false
+```
+
+在根目录仓库`layouts/partials/extended_head.html`文件中：
+
+```
+# line 3
 <script>
   loadCSS("https://fonts.googleapis.com/css?family=Consolas|Lora|Montserrat|Fira+Mono|Noto+Serif+SC|Material+Icons");
 </script>
 ```
+

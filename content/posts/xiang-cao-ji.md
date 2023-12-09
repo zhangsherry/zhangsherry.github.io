@@ -2,7 +2,7 @@
 title: "香草集"
 description: 纯R-18练笔
 date: 2022-04-09T00:02:46+08:00
-lastmod: [':git']
+lastmod: 
 image: 
 tags: [小说]
 categories: 2022

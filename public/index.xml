@@ -202,8 +202,9 @@ draft: false
 &lt;p&gt;调整lastmod日期显示为精确到时分，查了很久发现主题作者是在语言文件里改的，在fork的主题仓库&lt;code&gt;i18n/zh.yaml&lt;/code&gt;中修改了：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# line 2
 translation: 最后修改于 {{ .Format &amp;#34;2006-01-02 15:04&amp;#34; }}
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;我这个题目真的一点都没有取错！就是折腾！但真的实现了自动更新最后修改时间，很有成就感！&lt;/p&gt;
-&lt;p&gt;测试main.yml文件是否生效。&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;调整lastmod日期显示后，发现了以前一直隐藏的bug：github pages上的日期停留在一个非常奇怪的时间，并不是我实际修改的时间，另外使用&lt;code&gt;workflow/hugo.yml&lt;/code&gt;文件部署后，似乎因为不是直接调用public文件夹，导致所有文章的最后修改日期都会随着每次部署变化为部署的日期……于是改用自己写的&lt;code&gt;workflow/main.yml&lt;/code&gt;文件部署，结果workflow没有任何报错，但实际并没有成功部署到网址上去……后来参考了&lt;a href=&#34;https://github.com/plundration/plundration.github.io/blob/hugo/.github/workflows/deploy.yaml&#34;&gt;plundration的文件写法&lt;/a&gt;，先部署到仓库的另一个分支，最后由github-pages bot按该分支自动部署，终于解决了！实际上我前面能够顺利发现hugo与git的兼容性问题，也是因为plundration在hugo社区的提问。&lt;/p&gt;
+&lt;p&gt;这告诉我：看不懂的代码，抄就要抄全套啊！&lt;/p&gt;
+&lt;p&gt;我这个题目真的一点都没有取错！就是折腾！但真的实现了自动更新最后修改时间，很有成就感！&lt;/p&gt;
 - /posts/zhe-teng/ - 2020 - 2023 Zhang Sherry, All rights reserved.</description>
         </item>
     

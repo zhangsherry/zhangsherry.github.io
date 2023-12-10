@@ -146,6 +146,8 @@ lastmod日期不管怎么修改都不正确……暂时放弃了，实在不行�
 translation: 最后修改于 {{ .Format "2006-01-02 15:04" }}
 ```
 
-我这个题目真的一点都没有取错！就是折腾！但真的实现了自动更新最后修改时间，很有成就感！
+调整lastmod日期显示后，发现了以前一直隐藏的bug：github pages上的日期停留在一个非常奇怪的时间，并不是我实际修改的时间，另外使用`workflow/hugo.yml`文件部署后，似乎因为不是直接调用public文件夹，导致所有文章的最后修改日期都会随着每次部署变化为部署的日期……于是改用自己写的`workflow/main.yml`文件部署，结果workflow没有任何报错，但实际并没有成功部署到网址上去……后来参考了[plundration的文件写法](https://github.com/plundration/plundration.github.io/blob/hugo/.github/workflows/deploy.yaml)，先部署到仓库的另一个分支，最后由github-pages bot按该分支自动部署，终于解决了！实际上我前面能够顺利发现hugo与git的兼容性问题，也是因为plundration在hugo社区的提问。
 
-测试main.yml文件是否生效。
+这告诉我：看不懂的代码，抄就要抄全套啊！
+
+我这个题目真的一点都没有取错！就是折腾！但真的实现了自动更新最后修改时间，很有成就感！

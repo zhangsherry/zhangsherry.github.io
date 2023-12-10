@@ -1,4 +1,4 @@
-baseURL = "https://zhangsherry.github.io/"
+baseURL = "/"
 DefaultContentLanguage = "zh" # Theme's display language, supports: en, fr, zh, zh-hant
 languageCode = "en-us"
 title = "Zhang Sherry's Blog"

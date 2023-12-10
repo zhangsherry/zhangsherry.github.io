@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Zhang Sherry&#39;s Blog</title>
-    <link>https://zhangsherry.github.io/posts/</link>
+    <link>/posts/</link>
     <description>Recent content in Posts on Zhang Sherry&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2020 - 2023 Zhang Sherry, All rights reserved.</copyright>
-    <lastBuildDate>Tue, 13 Jun 2023 22:24:21 +0800</lastBuildDate><atom:link href="https://zhangsherry.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Jun 2023 22:24:21 +0800</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>应届生不完全租房指北</title>
-      <link>https://zhangsherry.github.io/posts/zu-fang/</link>
+      <link>/posts/zu-fang/</link>
       <pubDate>Tue, 13 Jun 2023 22:24:21 +0800</pubDate>
       
-      <guid>https://zhangsherry.github.io/posts/zu-fang/</guid>
+      <guid>/posts/zu-fang/</guid>
       <description>租房前你需要考虑的事情 1.租房预算
 1.1 独居还是合租？
 这点单独拎出来是因为对预算的影响很大，合租需要多考虑的一点是：先定房还是先定人？先自己看好房再招募室友，或先招募室友再共同看房，以及懒人可以考虑直接找已经看好房的室友（即直接去当被招募的室友）。
@@ -78,10 +78,10 @@
     
     <item>
       <title>代码小白的网站折腾笔记</title>
-      <link>https://zhangsherry.github.io/posts/zhe-teng/</link>
+      <link>/posts/zhe-teng/</link>
       <pubDate>Mon, 18 Apr 2022 22:09:32 +0800</pubDate>
       
-      <guid>https://zhangsherry.github.io/posts/zhe-teng/</guid>
+      <guid>/posts/zhe-teng/</guid>
       <description>2022.4.18 起因是发现safari浏览器不能正常加载谷歌字体库，一篇文章打开字体不一致真的逼死强迫症。于是想要把网站用的谷歌字体库替换成国内的镜像源，翻了半天material for MKdocs的文档，无果，最后还是靠别人的博客Mkdocs 谷歌字体加载失败解决方法 - 运维笔记 (zongming.net)解决了问题。
 修改了以下两个文件：
 # mkdocs/themes/readthedocs/base.html 查找 &amp;lt;link rel=&amp;#34;stylesheet&amp;#34; href=&amp;#34;https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700&amp;#34; /&amp;gt; # 替换为 &amp;lt;link rel=&amp;#34;stylesheet&amp;#34; href=&amp;#34;https://fonts.geekzu.org/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700&amp;#34; /&amp;gt; # material/base.html 查找 &amp;lt;link rel=&amp;#34;stylesheet&amp;#34; href=&amp;#34;https://fonts.googleapis.com/css?family={{ # 替换为 &amp;lt;link rel=&amp;#34;stylesheet&amp;#34; href=&amp;#34;https://fonts.geekzu.org/css?family={{ 2023.6.13 又到了折腾博客主题的时间！起因是给朋友写了一篇租房指南，准备发一篇博客，恰好换了新电脑，github仓库里只放了网站文件没有放其他的……呃，生成网站的那些文件，完全没有考虑过换电脑会带来这些问题！所以不得不重新下载hugo啊配置环境啊，那不就顺手换个主题嘛（反正也不写博客）。看来看去，还是爱这一款diary主题！是的，就是我上上次用的主题，人会在不同的时候踏入同一条河流……
@@ -92,10 +92,10 @@
     
     <item>
       <title>香草集</title>
-      <link>https://zhangsherry.github.io/posts/xiang-cao-ji/</link>
+      <link>/posts/xiang-cao-ji/</link>
       <pubDate>Sat, 09 Apr 2022 00:02:46 +0800</pubDate>
       
-      <guid>https://zhangsherry.github.io/posts/xiang-cao-ji/</guid>
+      <guid>/posts/xiang-cao-ji/</guid>
       <description>第一章 失眠者回忆 天已经黑下来了。
 她的头顶仍然一片亮堂，城市的人造灯光向来勤劳又准时，以至于她时常担心月亮某一天懒得上班了。路灯有无数个，月亮却是唯一的，哪怕相隔千里，借着这份唯一，也能天涯共此时了。
 假如那个人也在看月亮的话，她望见湖心一圈圈荡开的涟漪，思绪飘回少女时代，对方会不会想起同样的夜晚呢？
@@ -165,10 +165,10 @@
     
     <item>
       <title>春日终将逝去</title>
-      <link>https://zhangsherry.github.io/posts/chun-ri/</link>
+      <link>/posts/chun-ri/</link>
       <pubDate>Sun, 27 Mar 2022 23:32:50 +0800</pubDate>
       
-      <guid>https://zhangsherry.github.io/posts/chun-ri/</guid>
+      <guid>/posts/chun-ri/</guid>
       <description>正文 寒假回家，一推门，我就被客厅里那一盆红果子吓了一跳。
 我是不太信我妈会买盆栽这种东西的，她那是能养花的人吗？天上飞的、地上跑的、水里游的，都养过，只有我活下来了。那一瞬间，我连悼词都想好了。
 “可算回来了！嗯，瘦了点……”妈照例得念叨一番我，今年末尾多了句别的：“看到我这花没有？这是火棘，冬天结果子，春天才开花。你看这果子多的，你妈养花那是……”
@@ -213,10 +213,10 @@
     
     <item>
       <title>失眠者絮语</title>
-      <link>https://zhangsherry.github.io/posts/shi-mian-zhe/</link>
+      <link>/posts/shi-mian-zhe/</link>
       <pubDate>Tue, 12 Jan 2021 22:21:09 +0800</pubDate>
       
-      <guid>https://zhangsherry.github.io/posts/shi-mian-zhe/</guid>
+      <guid>/posts/shi-mian-zhe/</guid>
       <description>正文 刺穿身体的风。
 现在是凌晨三点，还有四个小时，闹钟就要响了。
 叫闹钟可能不够准确，它还能显示时间，在夜里发着淡蓝色的光，因为决定买它的人怕黑。可是我不怕，从来都不怕。现在这里也没有人怕黑了。

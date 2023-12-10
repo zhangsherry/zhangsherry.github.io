@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Zhang Sherry&#39;s Blog</title>
-    <link>https://zhangsherry.github.io/</link>
+    <link>/</link>
     <description>Recent content on Zhang Sherry&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>2020 - 2023 Zhang Sherry, All rights reserved.</copyright>
     <lastBuildDate>Tue, 13 Jun 2023 22:24:21 +0800</lastBuildDate>
     
-        <atom:link href="https://zhangsherry.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     
         <item>
         <title>应届生不完全租房指北</title>
-        <link>https://zhangsherry.github.io/posts/zu-fang/</link>
+        <link>/posts/zu-fang/</link>
         <pubDate>Tue, 13 Jun 2023 22:24:21 +0800</pubDate>
         
-        <guid>https://zhangsherry.github.io/posts/zu-fang/</guid>
-        <description>Zhang Sherry&#39;s Blog https://zhangsherry.github.io/posts/zu-fang/ -&lt;h2 id=&#34;租房前你需要考虑的事情&#34;&gt;租房前你需要考虑的事情&lt;/h2&gt;
+        <guid>/posts/zu-fang/</guid>
+        <description>Zhang Sherry&#39;s Blog /posts/zu-fang/ -&lt;h2 id=&#34;租房前你需要考虑的事情&#34;&gt;租房前你需要考虑的事情&lt;/h2&gt;
 &lt;p&gt;1.租房预算&lt;/p&gt;
 &lt;p&gt;1.1 独居还是合租？&lt;/p&gt;
 &lt;p&gt;这点单独拎出来是因为对预算的影响很大，合租需要多考虑的一点是：先定房还是先定人？先自己看好房再招募室友，或先招募室友再共同看房，以及懒人可以考虑直接找已经看好房的室友（即直接去当被招募的室友）。&lt;/p&gt;
@@ -99,18 +99,18 @@
 &lt;p&gt;中介需要提供房东授权委托其代为出租房屋的合同或其他证明文件，房东的房产证、身份证，你需要提供身份证。同样建议你拍下相关证明。&lt;/p&gt;
 &lt;p&gt;除了各类期限、租金、押金（保证金）及其支付方式等租赁合同最核心的条款，你还应当仔细看看其他费用由谁承担，房屋维修的相关条款，以及房屋现有的设备清单、表格，核对数量是否准确与功能是否完好。&lt;/p&gt;
 &lt;p&gt;关于合同份数，建议与中介商量清楚，尤其是在合租的情况下。保证你的名字明确出现在承租人一栏中，如果签署纸质合同，确保你拥有合同原件而非复印件。&lt;/p&gt;
-- https://zhangsherry.github.io/posts/zu-fang/ - 2020 - 2023 Zhang Sherry, All rights reserved.</description>
+- /posts/zu-fang/ - 2020 - 2023 Zhang Sherry, All rights reserved.</description>
         </item>
     
     
     
         <item>
         <title>代码小白的网站折腾笔记</title>
-        <link>https://zhangsherry.github.io/posts/zhe-teng/</link>
+        <link>/posts/zhe-teng/</link>
         <pubDate>Mon, 18 Apr 2022 22:09:32 +0800</pubDate>
         
-        <guid>https://zhangsherry.github.io/posts/zhe-teng/</guid>
-        <description>Zhang Sherry&#39;s Blog https://zhangsherry.github.io/posts/zhe-teng/ -&lt;h2 id=&#34;2022418&#34;&gt;2022.4.18&lt;/h2&gt;
+        <guid>/posts/zhe-teng/</guid>
+        <description>Zhang Sherry&#39;s Blog /posts/zhe-teng/ -&lt;h2 id=&#34;2022418&#34;&gt;2022.4.18&lt;/h2&gt;
 &lt;p&gt;起因是发现safari浏览器不能正常加载谷歌字体库，一篇文章打开字体不一致真的逼死强迫症。于是想要把网站用的谷歌字体库替换成国内的镜像源，翻了半天material for MKdocs的文档，无果，最后还是靠别人的博客&lt;a href=&#34;http://zongming.net/read-1426/&#34;&gt;Mkdocs 谷歌字体加载失败解决方法 - 运维笔记 (zongming.net)&lt;/a&gt;解决了问题。&lt;/p&gt;
 &lt;p&gt;修改了以下两个文件：&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# mkdocs/themes/readthedocs/base.html 查找 
@@ -204,18 +204,18 @@ draft: false
 translation: 最后修改于 {{ .Format &amp;#34;2006-01-02 15:04&amp;#34; }}
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;我这个题目真的一点都没有取错！就是折腾！但真的实现了自动更新最后修改时间，很有成就感！&lt;/p&gt;
 &lt;p&gt;测试main.yml文件是否生效。&lt;/p&gt;
-- https://zhangsherry.github.io/posts/zhe-teng/ - 2020 - 2023 Zhang Sherry, All rights reserved.</description>
+- /posts/zhe-teng/ - 2020 - 2023 Zhang Sherry, All rights reserved.</description>
         </item>
     
     
     
         <item>
         <title>香草集</title>
-        <link>https://zhangsherry.github.io/posts/xiang-cao-ji/</link>
+        <link>/posts/xiang-cao-ji/</link>
         <pubDate>Sat, 09 Apr 2022 00:02:46 +0800</pubDate>
         
-        <guid>https://zhangsherry.github.io/posts/xiang-cao-ji/</guid>
-        <description>Zhang Sherry&#39;s Blog https://zhangsherry.github.io/posts/xiang-cao-ji/ -&lt;h2 id=&#34;第一章-失眠者回忆&#34;&gt;第一章 失眠者回忆&lt;/h2&gt;
+        <guid>/posts/xiang-cao-ji/</guid>
+        <description>Zhang Sherry&#39;s Blog /posts/xiang-cao-ji/ -&lt;h2 id=&#34;第一章-失眠者回忆&#34;&gt;第一章 失眠者回忆&lt;/h2&gt;
 &lt;p&gt;天已经黑下来了。&lt;/p&gt;
 &lt;p&gt;她的头顶仍然一片亮堂，城市的人造灯光向来勤劳又准时，以至于她时常担心月亮某一天懒得上班了。路灯有无数个，月亮却是唯一的，哪怕相隔千里，借着这份唯一，也能天涯共此时了。&lt;/p&gt;
 &lt;p&gt;假如那个人也在看月亮的话，她望见湖心一圈圈荡开的涟漪，思绪飘回少女时代，对方会不会想起同样的夜晚呢？&lt;/p&gt;
@@ -432,18 +432,18 @@ translation: 最后修改于 {{ .Format &amp;#34;2006-01-02 15:04&amp;#34; }}
 &lt;p&gt;何采薇心里苦笑，自己坐办公室，也不知道接触的是什么人，有学历，糊里糊涂被人偷拍了也不敢声张。想来想去，熟人实在难以启齿，只能找相对陌生的人倾诉。这样想着，正了正坐姿，犹疑着开了口：“也说不好，书读多了，总在学校里，进了社会也吃亏的。我有一个朋友……”她小心谨慎地拣重点说出了颦颦干过的事。&lt;/p&gt;
 &lt;p&gt;“我这个朋友，现在已经不知道怎么办才好了……报警，可对面是个律师啊，她、她肯定有办法的。”她甚至都没意识到自己带上了哭腔，但发觉符苹已轻轻靠过来，搂着她的肩。&lt;/p&gt;
 &lt;p&gt;何采薇从对方指腹传过来的温热中找到一丝安宁，恍惚真有一尾极弱的火苗舔舐着她。轻轻靠在对方肩上，淡淡的白桃香气，她一瞬间如释重负，到底说出来了。分了神猜测此刻她们的影子该紧紧相连，默念一遍对方的名字，心想，她们有点像两团挨着的浮萍，在这个城市的角落里悄悄拉扯住彼此。&lt;/p&gt;
-- https://zhangsherry.github.io/posts/xiang-cao-ji/ - 2020 - 2023 Zhang Sherry, All rights reserved.</description>
+- /posts/xiang-cao-ji/ - 2020 - 2023 Zhang Sherry, All rights reserved.</description>
         </item>
     
     
     
         <item>
         <title>春日终将逝去</title>
-        <link>https://zhangsherry.github.io/posts/chun-ri/</link>
+        <link>/posts/chun-ri/</link>
         <pubDate>Sun, 27 Mar 2022 23:32:50 +0800</pubDate>
         
-        <guid>https://zhangsherry.github.io/posts/chun-ri/</guid>
-        <description>Zhang Sherry&#39;s Blog https://zhangsherry.github.io/posts/chun-ri/ -&lt;h2 id=&#34;正文&#34;&gt;正文&lt;/h2&gt;
+        <guid>/posts/chun-ri/</guid>
+        <description>Zhang Sherry&#39;s Blog /posts/chun-ri/ -&lt;h2 id=&#34;正文&#34;&gt;正文&lt;/h2&gt;
 &lt;p&gt;寒假回家，一推门，我就被客厅里那一盆红果子吓了一跳。&lt;/p&gt;
 &lt;p&gt;我是不太信我妈会买盆栽这种东西的，她那是能养花的人吗？天上飞的、地上跑的、水里游的，都养过，只有我活下来了。那一瞬间，我连悼词都想好了。&lt;/p&gt;
 &lt;p&gt;“可算回来了！嗯，瘦了点……”妈照例得念叨一番我，今年末尾多了句别的：“看到我这花没有？这是火棘，冬天结果子，春天才开花。你看这果子多的，你妈养花那是……”&lt;/p&gt;
@@ -485,18 +485,18 @@ translation: 最后修改于 {{ .Format &amp;#34;2006-01-02 15:04&amp;#34; }}
 &lt;p&gt;但她为什么没有直接告诉我呢？&lt;/p&gt;
 &lt;h2 id=&#34;修改方向&#34;&gt;修改方向&lt;/h2&gt;
 &lt;p&gt;改成倒叙或者插叙，不要平铺直叙。&lt;/p&gt;
-- https://zhangsherry.github.io/posts/chun-ri/ - 2020 - 2023 Zhang Sherry, All rights reserved.</description>
+- /posts/chun-ri/ - 2020 - 2023 Zhang Sherry, All rights reserved.</description>
         </item>
     
     
     
         <item>
         <title>失眠者絮语</title>
-        <link>https://zhangsherry.github.io/posts/shi-mian-zhe/</link>
+        <link>/posts/shi-mian-zhe/</link>
         <pubDate>Tue, 12 Jan 2021 22:21:09 +0800</pubDate>
         
-        <guid>https://zhangsherry.github.io/posts/shi-mian-zhe/</guid>
-        <description>Zhang Sherry&#39;s Blog https://zhangsherry.github.io/posts/shi-mian-zhe/ -&lt;h2 id=&#34;正文&#34;&gt;正文&lt;/h2&gt;
+        <guid>/posts/shi-mian-zhe/</guid>
+        <description>Zhang Sherry&#39;s Blog /posts/shi-mian-zhe/ -&lt;h2 id=&#34;正文&#34;&gt;正文&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;刺穿身体的风。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -536,7 +536,7 @@ translation: 最后修改于 {{ .Format &amp;#34;2006-01-02 15:04&amp;#34; }}
 &lt;p&gt;“那个下午”也起了风。我一时分不出我头痛到底是因为风还是这段回忆。每个失眠的晚上，我好像都困在“那个下午”的风声里。&lt;/p&gt;
 &lt;h2 id=&#34;一些多余的话&#34;&gt;一些多余的话&lt;/h2&gt;
 &lt;p&gt;打算弃坑。&lt;/p&gt;
-- https://zhangsherry.github.io/posts/shi-mian-zhe/ - 2020 - 2023 Zhang Sherry, All rights reserved.</description>
+- /posts/shi-mian-zhe/ - 2020 - 2023 Zhang Sherry, All rights reserved.</description>
         </item>
     
     

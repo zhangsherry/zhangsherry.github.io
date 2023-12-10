@@ -128,6 +128,22 @@ draft: false
 
 而且本来不至于折腾到今天的，使用命令`hugo server`之后本地看字体改过来了，过于欣喜，忘记publish还得使用命令`hugo`，push完发现字体又没变化，大崩溃！好在洗了个澡清醒多了。跌跌撞撞也在逐渐明白各种工具怎么用，很好！
 
-lastmod日期不管怎么修改都不正确……暂时放弃了，实在不行就手动修改吧，一次失败的自动化尝试。
+lastmod日期不管怎么修改都不正确……暂时放弃了，实在不行就手动修改吧，一次失败的自动化尝试。更新：经过搜索，发现似乎是hugo与git的兼容性问题，这也解释了为什么github pages上部署会出错，vercel上部署就没有问题。在`workflow/hugo.yml`文件中加入以下代码解决：
+
+```
+# line 37
+# Fix for https://github.com/gohugoio/hugo/issues/9810
+      - name: Git config
+        run: git config --global core.quotepath false
+```
 
 删掉了根目录仓库`layouts/partials/extended_head.html`文件的修改，每次都报错……
+
+调整lastmod日期显示为精确到时分，查了很久发现主题作者是在语言文件里改的，在fork的主题仓库`i18n/zh.yaml`中修改了：
+
+```
+# line 2
+translation: 最后修改于 {{ .Format "2006-01-02 15:04" }}
+```
+
+我这个题目真的一点都没有取错！就是折腾！但真的实现了自动更新最后修改时间，很有成就感！

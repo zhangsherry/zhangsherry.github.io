@@ -1,20 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on Zhang Sherry&#39;s Blog</title>
-    <link>https://zhangsherry.github.io/posts/</link>
-    <description>Recent content in Posts on Zhang Sherry&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>2020 - 2023 Zhang Sherry, All rights reserved.</copyright>
-    <lastBuildDate>Tue, 13 Jun 2023 22:24:21 +0800</lastBuildDate><atom:link href="https://zhangsherry.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>应届生不完全租房指北</title>
-      <link>https://zhangsherry.github.io/posts/zu-fang/</link>
-      <pubDate>Tue, 13 Jun 2023 22:24:21 +0800</pubDate>
-      
-      <guid>https://zhangsherry.github.io/posts/zu-fang/</guid>
-      <description>租房前你需要考虑的事情 1.租房预算
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Zhang Sherry's Blog</title><link>https://zhangsherry.github.io/posts/</link><description>Recent content in Posts on Zhang Sherry's Blog</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>2020 - 2023 Zhang Sherry, All rights reserved.</copyright><lastBuildDate>Tue, 13 Jun 2023 22:24:21 +0800</lastBuildDate><atom:link href="https://zhangsherry.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>应届生不完全租房指北</title><link>https://zhangsherry.github.io/posts/zu-fang/</link><pubDate>Tue, 13 Jun 2023 22:24:21 +0800</pubDate><guid>https://zhangsherry.github.io/posts/zu-fang/</guid><description>租房前你需要考虑的事情 1.租房预算
 1.1 独居还是合租？
 这点单独拎出来是因为对预算的影响很大，合租需要多考虑的一点是：先定房还是先定人？先自己看好房再招募室友，或先招募室友再共同看房，以及懒人可以考虑直接找已经看好房的室友（即直接去当被招募的室友）。
 2.能够接受的通勤时长
@@ -73,30 +57,12 @@
 12、床板床垫是否结实，看看，上去坐一下
 13、橱柜门开关灵活，合页牢固
 14、暖气、燃气抢修联系方式
-15、试一下燃气灶是否正常工作</description>
-    </item>
-    
-    <item>
-      <title>代码小白的网站折腾笔记</title>
-      <link>https://zhangsherry.github.io/posts/zhe-teng/</link>
-      <pubDate>Mon, 18 Apr 2022 22:09:32 +0800</pubDate>
-      
-      <guid>https://zhangsherry.github.io/posts/zhe-teng/</guid>
-      <description>2022.4.18 起因是发现safari浏览器不能正常加载谷歌字体库，一篇文章打开字体不一致真的逼死强迫症。于是想要把网站用的谷歌字体库替换成国内的镜像源，翻了半天material for MKdocs的文档，无果，最后还是靠别人的博客Mkdocs 谷歌字体加载失败解决方法 - 运维笔记 (zongming.net)解决了问题。
+15、试一下燃气灶是否正常工作</description></item><item><title>代码小白的网站折腾笔记</title><link>https://zhangsherry.github.io/posts/zhe-teng/</link><pubDate>Mon, 18 Apr 2022 22:09:32 +0800</pubDate><guid>https://zhangsherry.github.io/posts/zhe-teng/</guid><description>2022.4.18 起因是发现safari浏览器不能正常加载谷歌字体库，一篇文章打开字体不一致真的逼死强迫症。于是想要把网站用的谷歌字体库替换成国内的镜像源，翻了半天material for MKdocs的文档，无果，最后还是靠别人的博客Mkdocs 谷歌字体加载失败解决方法 - 运维笔记 (zongming.net)解决了问题。
 修改了以下两个文件：
 # mkdocs/themes/readthedocs/base.html 查找 &amp;lt;link rel=&amp;#34;stylesheet&amp;#34; href=&amp;#34;https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700&amp;#34; /&amp;gt; # 替换为 &amp;lt;link rel=&amp;#34;stylesheet&amp;#34; href=&amp;#34;https://fonts.geekzu.org/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700&amp;#34; /&amp;gt; # material/base.html 查找 &amp;lt;link rel=&amp;#34;stylesheet&amp;#34; href=&amp;#34;https://fonts.googleapis.com/css?family={{ # 替换为 &amp;lt;link rel=&amp;#34;stylesheet&amp;#34; href=&amp;#34;https://fonts.geekzu.org/css?family={{ 2023.6.13 又到了折腾博客主题的时间！起因是给朋友写了一篇租房指南，准备发一篇博客，恰好换了新电脑，github仓库里只放了网站文件没有放其他的……呃，生成网站的那些文件，完全没有考虑过换电脑会带来这些问题！所以不得不重新下载hugo啊配置环境啊，那不就顺手换个主题嘛（反正也不写博客）。看来看去，还是爱这一款diary主题！是的，就是我上上次用的主题，人会在不同的时候踏入同一条河流……
 因为我基本都是中文写作，所以调整了字体、字体大小、正文缩进。
 均在assets/scss/journal.scss文件中：
-# line 9 调整等宽字体优先选择Consolas$mono-font-list: Consolas, &amp;#34;Fira Mono&amp;#34;, &amp;#34;Cousine&amp;#34;, Monaco, Menlo, &amp;#34;Source Code Pro&amp;#34;, monospace;# line 12 调整字体为优先选择思源宋体、衬线字体、$sans-preferred-font-list: &amp;#39;Noto Serif SC&amp;#39;, serif, $default-font-list;# line 26 调整正文字体大小为18px$post-body-size: 18px;# line 46 调整移动端字体大小$single-column-post-title-size: 26px;$single-column-post-summary-size: 16px;$single-column-post-body-size: 18px;$single-column-post-meta-size: 16px;# line 901 调整正文首行缩进2字符p {text-indent: 2em;} 非常感谢AmazingRise提供的简约又美观的主题！要是我能多写几篇博文就好了！</description>
-    </item>
-    
-    <item>
-      <title>香草集</title>
-      <link>https://zhangsherry.github.io/posts/xiang-cao-ji/</link>
-      <pubDate>Sat, 09 Apr 2022 00:02:46 +0800</pubDate>
-      
-      <guid>https://zhangsherry.github.io/posts/xiang-cao-ji/</guid>
-      <description>第一章 失眠者回忆 天已经黑下来了。
+# line 9 调整等宽字体优先选择Consolas $mono-font-list: Consolas, &amp;#34;Fira Mono&amp;#34;, &amp;#34;Cousine&amp;#34;, Monaco, Menlo, &amp;#34;Source Code Pro&amp;#34;, monospace; # line 12 调整字体为优先选择思源宋体、衬线字体、 $sans-preferred-font-list: &amp;#39;Noto Serif SC&amp;#39;, serif, $default-font-list; # line 26 调整正文字体大小为18px $post-body-size: 18px; # line 46 调整移动端字体大小 $single-column-post-title-size: 26px; $single-column-post-summary-size: 16px; $single-column-post-body-size: 18px; $single-column-post-meta-size: 16px; # line 901 调整正文首行缩进2字符 p { text-indent: 2em; } 非常感谢AmazingRise提供的简约又美观的主题！要是我能多写几篇博文就好了！</description></item><item><title>香草集</title><link>https://zhangsherry.github.io/posts/xiang-cao-ji/</link><pubDate>Sat, 09 Apr 2022 00:02:46 +0800</pubDate><guid>https://zhangsherry.github.io/posts/xiang-cao-ji/</guid><description>第一章 失眠者回忆 天已经黑下来了。
 她的头顶仍然一片亮堂，城市的人造灯光向来勤劳又准时，以至于她时常担心月亮某一天懒得上班了。路灯有无数个，月亮却是唯一的，哪怕相隔千里，借着这份唯一，也能天涯共此时了。
 假如那个人也在看月亮的话，她望见湖心一圈圈荡开的涟漪，思绪飘回少女时代，对方会不会想起同样的夜晚呢？
 风轻轻穿过她，和那个夜晚一样温柔。她还记得她坐在窗台边缘，跟着风轻轻晃动悬空的双脚，张开双臂感受难得的自由自在。结果她却被人从后环住了腰，一缕气息划过她的侧脸，在她耳边凝成字句：“这样，是不是很像泰坦尼克号？”她看向她，就着月光勾勒一段挺翘的鼻梁，在心里描摹两片柔软的嘴唇，忽然就很想吻上去。很巧，对方也这样想，她们便接了一个轻缓而悠长的吻。风挤不进来，于是只能放任这股柑橘混着薄荷的清新气味填满所有的空隙。
@@ -160,16 +126,7 @@
 天终于要亮了。
 第二章 负重者独行 从杜若记事起，这间不大的房子里就只有她和母亲两个人。母亲很忙，而小孩子总是很闲，这时候她就会被送到周阿姨家去。她还记得第一次去之前，母亲告诉她，她本该有一个小她一岁的妹妹，准备叫杜蘅，生下来之前就没了，恰好周阿姨这年也生了个女儿，就起名叫周蘅。母亲说，周蘅就和她亲妹妹一样，她是姐姐，要保护妹妹。
 当时她其实只听懂了最后一句，懵懂之间接受了自己突然多了个妹妹的事实。
-在和周蘅接触之前，她一直觉得家里就应该是一个大人一个小孩。这是年幼的自己经受的第一次冲击。第二次也和她家有关，她很羡慕周蘅可以和父母聊那么久的天，周叔叔周阿姨可以陪她们玩那么久。从那个时候起，她开始明白母亲是不太一样的。</description>
-    </item>
-    
-    <item>
-      <title>春日终将逝去</title>
-      <link>https://zhangsherry.github.io/posts/chun-ri/</link>
-      <pubDate>Sun, 27 Mar 2022 23:32:50 +0800</pubDate>
-      
-      <guid>https://zhangsherry.github.io/posts/chun-ri/</guid>
-      <description>正文 寒假回家，一推门，我就被客厅里那一盆红果子吓了一跳。
+在和周蘅接触之前，她一直觉得家里就应该是一个大人一个小孩。这是年幼的自己经受的第一次冲击。第二次也和她家有关，她很羡慕周蘅可以和父母聊那么久的天，周叔叔周阿姨可以陪她们玩那么久。从那个时候起，她开始明白母亲是不太一样的。</description></item><item><title>春日终将逝去</title><link>https://zhangsherry.github.io/posts/chun-ri/</link><pubDate>Sun, 27 Mar 2022 23:32:50 +0800</pubDate><guid>https://zhangsherry.github.io/posts/chun-ri/</guid><description>正文 寒假回家，一推门，我就被客厅里那一盆红果子吓了一跳。
 我是不太信我妈会买盆栽这种东西的，她那是能养花的人吗？天上飞的、地上跑的、水里游的，都养过，只有我活下来了。那一瞬间，我连悼词都想好了。
 “可算回来了！嗯，瘦了点……”妈照例得念叨一番我，今年末尾多了句别的：“看到我这花没有？这是火棘，冬天结果子，春天才开花。你看这果子多的，你妈养花那是……”
 “刚买吧？那是人卖家养得好。”
@@ -208,16 +165,7 @@
 这缕思绪却没有散去，我开始怀疑这盆花与小林姐有关。
 怀疑的证据。
 但她为什么没有直接告诉我呢？
-修改方向 改成倒叙或者插叙，不要平铺直叙。</description>
-    </item>
-    
-    <item>
-      <title>失眠者絮语</title>
-      <link>https://zhangsherry.github.io/posts/shi-mian-zhe/</link>
-      <pubDate>Tue, 12 Jan 2021 22:21:09 +0800</pubDate>
-      
-      <guid>https://zhangsherry.github.io/posts/shi-mian-zhe/</guid>
-      <description>正文 刺穿身体的风。
+修改方向 改成倒叙或者插叙，不要平铺直叙。</description></item><item><title>失眠者絮语</title><link>https://zhangsherry.github.io/posts/shi-mian-zhe/</link><pubDate>Tue, 12 Jan 2021 22:21:09 +0800</pubDate><guid>https://zhangsherry.github.io/posts/shi-mian-zhe/</guid><description>正文 刺穿身体的风。
 现在是凌晨三点，还有四个小时，闹钟就要响了。
 叫闹钟可能不够准确，它还能显示时间，在夜里发着淡蓝色的光，因为决定买它的人怕黑。可是我不怕，从来都不怕。现在这里也没有人怕黑了。
 这里是我租的房子。按理说早该退租了，但我还是拖延到最后一天，并且仍然没有收拾完东西。这样看来我失眠也正常。没关系，闹钟一响，我还是会起来的。
@@ -252,8 +200,4 @@
 可是她离开我了，在跳下去的“那个下午”——我肯定记得具体日期，但我宁愿装作忘记——那个下午发生的一切都在我的脑海里重播过千万次，我不知道我们寻常的感情开头为什么会有那么一个不寻常的结局。她为什么会跳下去？为什么？
 我立刻开始头痛欲裂，可是我的药好像吃完了，至少床头柜的那些药盒子都空荡荡的。起风的时候，它们一定也和我一样，飘了起来，在空中没有抓手的地方，只能看着风穿过身体，被它们一点点地吞噬干净。
 “那个下午”也起了风。我一时分不出我头痛到底是因为风还是这段回忆。每个失眠的晚上，我好像都困在“那个下午”的风声里。
-一些多余的话 打算弃坑。</description>
-    </item>
-    
-  </channel>
-</rss>
+一些多余的话 打算弃坑。</description></item></channel></rss>

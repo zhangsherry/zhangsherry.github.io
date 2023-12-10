@@ -203,6 +203,7 @@ draft: false
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# line 2
 translation: 最后修改于 {{ .Format &amp;#34;2006-01-02 15:04&amp;#34; }}
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;我这个题目真的一点都没有取错！就是折腾！但真的实现了自动更新最后修改时间，很有成就感！&lt;/p&gt;
+&lt;p&gt;测试main.yml文件是否生效。&lt;/p&gt;
 - https://zhangsherry.github.io/posts/zhe-teng/ - 2020 - 2023 Zhang Sherry, All rights reserved.</description>
         </item>
     

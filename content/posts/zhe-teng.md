@@ -151,3 +151,17 @@ translation: 最后修改于 {{ .Format "2006-01-02 15:04" }}
 这告诉我：看不懂的代码，抄就要抄全套啊！
 
 我这个题目真的一点都没有取错！就是折腾！但真的实现了自动更新最后修改时间，很有成就感！
+
+## 2023.12.11
+
+感觉移动端看起来字又小又密，调整主题仓库`assets/scss/journal.scss`文件：
+
+```
+# line 47
+$single-column-post-title-size: 24px;
+$single-column-post-summary-size: 16px;
+$single-column-post-body-size: 18px;
+$single-column-post-meta-size: 16px;
+```
+
+电脑端看起来行距其实还行，考虑要不要调整行距为1.75倍。

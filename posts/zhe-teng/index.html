@@ -21,7 +21,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/posts/zhe-teng/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-04-18T22:09:32+08:00" />
-<meta property="article:modified_time" content="2023-12-10T18:43:16+08:00" /><meta property="og:site_name" content="Zhangsherry&#39;s Blog" />
+<meta property="article:modified_time" content="2023-12-11T23:10:35+08:00" /><meta property="og:site_name" content="Zhangsherry&#39;s Blog" />
 
 
 
@@ -60,7 +60,7 @@
     
     <link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
 
-<link rel="stylesheet" href="/scss/dark-mode.min.449e212a6d488ae1603da4b215318ca5c918cecf434c01d9cf36d08d2407d79c.css" integrity="sha256-RJ4hKm1IiuFgPaSyFTGMpckYzs9DTAHZzzbQjSQH15w=" media="screen">
+<link rel="stylesheet" href="/scss/dark-mode.min.b84c34c718e4f9d9302d51904bcc23e36969018efc60d22dc55471e43cda87d6.css" integrity="sha256-uEw0xxjk&#43;dkwLVGQS8wj42lpAY78YNItxVRx5Dzah9Y=" media="screen">
 
 
 <link rel="stylesheet"
@@ -228,6 +228,24 @@
 					
 				
 			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#20231211" class="nav-20231211">
+									2023.12.11
+								</a>
+							</li>
+						
+						
+					
+				
+			
 		</ul>
 	</div>
 
@@ -319,7 +337,7 @@
                             
                             9 min
                             
-                            18 s.
+                            42 s.
                         
                     </div>
                 </div>
@@ -424,10 +442,18 @@ translation: 最后修改于 {{ .Format &#34;2006-01-02 15:04&#34; }}
 </code></pre><p>调整lastmod日期显示后，发现了以前一直隐藏的bug：github pages上的日期停留在一个非常奇怪的时间，并不是我实际修改的时间，另外使用<code>workflow/hugo.yml</code>文件部署后，似乎因为不是直接调用public文件夹，导致所有文章的最后修改日期都会随着每次部署变化为部署的日期……于是改用自己写的<code>workflow/main.yml</code>文件部署，结果workflow没有任何报错，但实际并没有成功部署到网址上去……后来参考了<a href="https://github.com/plundration/plundration.github.io/blob/hugo/.github/workflows/deploy.yaml">plundration的文件写法</a>，先部署到仓库的另一个分支，最后由github-pages bot按该分支自动部署，终于解决了！实际上我前面能够顺利发现hugo与git的兼容性问题，也是因为plundration在hugo社区的提问。</p>
 <p>这告诉我：看不懂的代码，抄就要抄全套啊！</p>
 <p>我这个题目真的一点都没有取错！就是折腾！但真的实现了自动更新最后修改时间，很有成就感！</p>
+<h2 id="20231211">2023.12.11</h2>
+<p>感觉移动端看起来字又小又密，调整主题仓库<code>assets/scss/journal.scss</code>文件：</p>
+<pre tabindex="0"><code># line 47
+$single-column-post-title-size: 24px;
+$single-column-post-summary-size: 16px;
+$single-column-post-body-size: 18px;
+$single-column-post-meta-size: 16px;
+</code></pre><p>电脑端看起来行距其实还行，考虑要不要调整行距为1.75倍。</p>
 
                     
                     <HR width="100%" id="EOF">
-		    <p style="color:#777;">最后修改于 2023-12-10 18:43</p>
+		    <p style="color:#777;">最后修改于 2023-12-11 23:10</p>
                     
                 </div>
             </div>
@@ -633,6 +659,24 @@ Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> b
 							<li>
 								<a href="#20231210" class="nav-20231210">
 									2023.12.10
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#20231211" class="nav-20231211">
+									2023.12.11
 								</a>
 							</li>
 						
